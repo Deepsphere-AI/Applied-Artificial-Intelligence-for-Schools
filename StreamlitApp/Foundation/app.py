@@ -12,7 +12,7 @@ import source.lcm_1 as lcm
 import source.profit_loss as pl
 
 
-vAR_st.set_page_config(layout='wide')
+#vAR_st.set_page_config(layout='wide')
 
 
 
