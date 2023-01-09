@@ -17,13 +17,13 @@ import source.frustum as fru
 import source.collinear as colin
 import source.Standat_var as std
 import source.bmi as bmical
-with open('style/final.css') as f:
+with open('/app/applied-artificial-intelligence-for-schools/StreamlitApp/Advanced/style/final.css') as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 imcol1, imcol2, imcol3 = st.columns((2,5,3))
 with imcol1:
     st.write("")
 with imcol2:
-    st.image('image/Logo_final.png')
+    st.image('/app/applied-artificial-intelligence-for-schools/StreamlitApp/Advanced/image/Logo_final.png')
 with imcol3:
     st.write("")
 #---------Side bar-------#
