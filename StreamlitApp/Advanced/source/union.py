@@ -5,8 +5,8 @@ def clr_ins():
     vAR_st.session_state['set1']=""
     vAR_st.session_state['set2']=""
 def union(a,b):
-    w1,col1,col2,w2=vAR_st.columns((1,2,2,1))
-    us1,bc1,bc2,us2=vAR_st.columns((4,1.4,1.4,4))
+    w1,col1,col2,w2= vAR_st.columns((1,2,2,1))
+    us1,bc1,bc2,us2= vAR_st.columns((4,2.5,2.8,6))
     a=a.split(",")
     b=b.split(",")
     c=set(a)
