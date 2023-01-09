@@ -36,7 +36,7 @@ col1, col2, col3 = vAR_st.columns([3,5,3])
 with col1:
     vAR_st.write('')
 with col2:
-    vAR_st.image('Image/ds.png')
+    vAR_st.image('image/ds.png')
 with col3:
     vAR_st.write('')
 
