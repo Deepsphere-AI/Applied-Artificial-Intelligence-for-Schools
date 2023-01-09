@@ -36,7 +36,7 @@ col1, col2, col3 = vAR_st.columns([3,5,3])
 with col1:
     vAR_st.write('')
 with col2:
-    vAR_st.image('/app/StreamlitApp/Foundation/image/ds.png')
+    vAR_st.image('/app/applied-artificial-intelligence-for-schools/StreamlitApp/Foundation/image/ds.png')
 with col3:
     vAR_st.write('')
 
@@ -84,7 +84,7 @@ vAR_st.markdown("""
 """, unsafe_allow_html=True)
 
 #for opening the css file
-with open('/app/StreamlitApp/Foundation/style/style.css') as f:
+with open('/app/applied-artificial-intelligence-for-schools/StreamlitApp/Foundation/style/style.css') as f:
     vAR_st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 #-------------------------------------------------------------------------------------------------------------
