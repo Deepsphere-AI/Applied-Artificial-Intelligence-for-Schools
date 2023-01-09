@@ -16,7 +16,7 @@ def button_rad():
     vAR_st.session_state["main"]="Area & Perimeter"
 
 vAR_st.set_page_config(layout='wide')
-with open("style/style.css") as vAR_f:
+with open("/app/applied-artificial-intelligence-for-schools/StreamlitApp/Foundation/style/style.css") as vAR_f:
     vAR_st.markdown (f"<style>{vAR_f.read()}</style>",unsafe_allow_html=True)
 
 if 'placeholder' not in vAR_st.session_state:
@@ -26,7 +26,7 @@ col1, col2, col3 = vAR_st.columns((2,5,3))
 with col1:
     vAR_st.write("")
 with col2:
-    vAR_st.image('image/Logo_final.png')
+    vAR_st.image('/app/applied-artificial-intelligence-for-schools/StreamlitApp/Foundation/image/Logo_final.png')
 with col3:
     vAR_st.write("")
 
