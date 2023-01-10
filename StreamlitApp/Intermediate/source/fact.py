@@ -1,7 +1,8 @@
 import streamlit as vAR_st
 #import source.head as head
 #import source.clear as cr
-
+def button_sq():
+    vAR_st.session_state["fact_in"]=""
 def factorial():
     vAR_st.markdown(" <h1 style='text-align: center; color: Black;font-size: 25px;'>Applied AI for Intermediate level</h1>", unsafe_allow_html=True)
     vAR_st.markdown("<p style='text-align: center; color: blue; font-size:29px;'>Simple application built on Streamlit</p>", unsafe_allow_html=True)
@@ -39,5 +40,5 @@ def factorial():
                     vAR_st.info("Enter only numeric values")
         with bc2:
             vAR_st.markdown("### ")
-            vAR_st.button("Clear", on_click=cr.button_sq)
+            vAR_st.button("Clear", on_click=button_sq)
             
