@@ -1,6 +1,6 @@
 import streamlit as vAR_st
 import math
-import source.head as head
+#import source.head as head
 
 def button_rad():
     vAR_st.session_state["rad"]= 0
