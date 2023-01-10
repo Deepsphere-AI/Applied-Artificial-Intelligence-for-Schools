@@ -135,7 +135,8 @@ def tyme():
             with col2:
                 vAR_t1=vAR_st.text_input("",key="clear2",placeholder="HH:MM")
                 vAR_t2=vAR_st.text_input("",key="clear3",placeholder="HH:MM")
-                
+            if vAR_t2>vAR_t1:
+                vAR_t1,vAR_t2=vAR_t2,vAR_t1
             with col3:
                 vAR_st.write("")
                 if vAR_st.button("submit"):
