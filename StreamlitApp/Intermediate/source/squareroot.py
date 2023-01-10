@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 def square_root():
     vAR_st.markdown(" <h1 style='text-align: center; color: Black;font-size: 25px;'>Applied AI for Intermediate level</h1>", unsafe_allow_html=True)
     vAR_st.markdown("<p style='text-align: center; color: blue; font-size:29px;'>Simple application built on Streamlit</p>", unsafe_allow_html=True)
-    vAR_st.markdown("<p style='text-align: center; color: black; font-size:20px;'><span style='font-weight: bold'>Problem Statement: </span>Application to find the Square </p>", unsafe_allow_html=True)
+    vAR_st.markdown("<p style='text-align: center; color: black; font-size:20px;'><span style='font-weight: bold'>Problem Statement: </span>Application to find the Square Root</p>", unsafe_allow_html=True)
     vAR_st.markdown("<hr style=height:2.5px;background-color:gray>",unsafe_allow_html=True)
     w1,col1,col2,w2=vAR_st.columns((1,2,2,1))
     us1,bc1,bc2,us2=vAR_st.columns((4,3,3,6))
