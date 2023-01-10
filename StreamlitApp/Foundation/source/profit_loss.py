@@ -8,7 +8,7 @@ from PIL import Image
 def profit_or_loss():
     
     w1,col1,col2,w2=st.columns((1,2,2,1))
-    us1,bc1,bc2,us2=st.columns((4,3,3,6))
+    us1,bc1,bc2,us2=st.columns((5,2,2,5))
     with col1:
         st.write("##")
         st.subheader("Enter the Cost Price ")
