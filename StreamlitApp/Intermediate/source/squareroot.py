@@ -29,7 +29,10 @@ def square_root():
                 if vAR_input_num >0:
                     vAR_square = vAR_input_num ** 0.5
                     #vAR_square=round(vAR_square,2)
-                    vAR_st.success(vAR_square)
+                    with col1:
+                        vAR_st.markdown("### Result")
+                    with col2:
+                        vAR_st.success(vAR_square)
                 else:
                     vAR_st.error("Enter positive number")
                 
