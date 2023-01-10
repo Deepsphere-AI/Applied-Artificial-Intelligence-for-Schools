@@ -38,8 +38,8 @@ def power_value():
                         
                         with col1:
                             vAR_st.write("")
-                            vAR_st.write("")
-                            #vAR_st.markdown("##")
+                            #vAR_st.write("")
+                            vAR_st.markdown("##")
                             vAR_st.markdown("### Result")
                         with col2:
                             vAR_st.success(vAR_ans)
