@@ -1,6 +1,6 @@
 import streamlit as vAR_st
-import source.head as head
-import source.clear as cr
+#import source.head as head
+#import source.clear as cr
 
 def factorial():
     vAR_st.markdown(" <h1 style='text-align: center; color: Black;font-size: 25px;'>Applied AI for Intermediate level</h1>", unsafe_allow_html=True)
