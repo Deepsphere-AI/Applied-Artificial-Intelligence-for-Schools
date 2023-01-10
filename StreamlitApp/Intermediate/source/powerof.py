@@ -36,12 +36,12 @@ def power_value():
                         vAR_ans=pow(vAR_num, vAR_power)
                         vAR_st.markdown("")
                         vAR_st.markdown("")
-                    with col1:
-                        vAR_st.write("")
-                        #vAR_st.write("")
-                        vAR_st.markdown("### Result")
-                     with col2:
-                        vAR_st.success(vAR_ans)
+                        with col1:
+                            vAR_st.write("")
+                            #vAR_st.write("")
+                            vAR_st.markdown("### Result")
+                        with col2:
+                            vAR_st.success(vAR_ans)
                 
                     else:
                         vAR_st.markdown("")
