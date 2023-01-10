@@ -2,7 +2,7 @@ import streamlit as vAR_st
 import numpy as np
 
 from scipy import stats
-import source.clear as cr
+#import source.clear as cr
 
 def clr_m():
     vAR_st.session_state['mmm']="Mean"
