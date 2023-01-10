@@ -16,7 +16,7 @@ def power_value():
     # ------------to create the function to clear the input-----------#
     with bc2:
         vAR_st.markdown("")
-        vAR_st.markdown("")
+        
         def clear_text():
             vAR_st.session_state["Clear_Value"] = ""
         vAR_st.button("Clear", on_click=clear_text)   
@@ -25,7 +25,7 @@ def power_value():
     #-----squreroot-------#
     with bc1:
         vAR_st.markdown("")
-        vAR_st.markdown("")
+        
         if vAR_st.button("Submit"):
             with col2:
                 try:
@@ -35,7 +35,7 @@ def power_value():
                         vAR_power=float(vAR_split[1])
                         vAR_ans=pow(vAR_num, vAR_power)
                         vAR_st.markdown("")
-                        vAR_st.markdown("")
+                        
                         with col1:
                             vAR_st.write("")
                             #vAR_st.write("")
