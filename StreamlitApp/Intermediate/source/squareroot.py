@@ -14,7 +14,6 @@ def square_root():
     # ------------to create the function to clear the input-----------#
     with bc2:
         vAR_st.markdown("")
-        vAR_st.markdown("")
         def clear_text():
             vAR_st.session_state["Clear_Square"] = 0
         vAR_st.button("Clear", on_click=clear_text)   
@@ -23,14 +22,14 @@ def square_root():
     #-----squre-------#
     with bc1:
         vAR_st.markdown("")
-        vAR_st.markdown("")
         if vAR_st.button("Submit"):
             with col2:
                 if vAR_input_num >0:
                     vAR_square = vAR_input_num ** 0.5
                     #vAR_square=round(vAR_square,2)
                     with col1:
-                        vAR_st.markdown("")
+                        vAR_st.write("")
+                        vAR_st.markdown("### ")
                         vAR_st.markdown("### Result")
                     with col2:
                         vAR_st.success(vAR_square)
