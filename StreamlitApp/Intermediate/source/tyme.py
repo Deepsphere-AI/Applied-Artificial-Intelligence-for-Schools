@@ -18,7 +18,7 @@ def tyme():
             vAR_st.session_state["clear"]=""
             vAR_st.session_state["clear2"]=""
             vAR_st.session_state["clear3"]=""
-    if sel=="Standard time to railway time conversion":
+    if sel=="Standard time to railway time":
         with col1:
             vAR_st.write("### ")
             vAR_st.subheader("Enter the time")
