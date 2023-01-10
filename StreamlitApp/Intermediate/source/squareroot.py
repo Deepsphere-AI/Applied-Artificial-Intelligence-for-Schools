@@ -28,8 +28,7 @@ def square_root():
                     vAR_square = vAR_input_num ** 0.5
                     #vAR_square=round(vAR_square,2)
                     with col1:
-                        vAR_st.write("")
-                        vAR_st.markdown("## ")
+                        vAR_st.markdown("### ")
                         vAR_st.markdown("### Result")
                     with col2:
                         vAR_st.success(vAR_square)
