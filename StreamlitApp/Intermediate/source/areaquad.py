@@ -60,6 +60,6 @@ def areaq():
                     vAR_st.subheader((vAR_res)) 
                     vAR_st.subheader("Sq units")
             
-        with col1:
-            vAR_st.write("# Result ")
+            with col1:
+                vAR_st.write("# Result ")
 
