@@ -12,7 +12,7 @@ def areaq():
     with col1:
         vAR_st.write("#")
         vAR_st.subheader("Enter x1 ")
-        vAR_st.write("##")
+        vAR_st.write("###")
         vAR_st.subheader("Enter y1 ")
         vAR_st.write("#")
         vAR_st.subheader("Enter x2 ")
